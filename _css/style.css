@@ -16,3 +16,12 @@ body {
 	font-family: sans-serif;
 	font-size: 3vw;
 }
+
+.article {
+	-webkit-column-count: 3;
+	-webkit-column-gap: 50px;
+	-webkit-column-rule: 2px solid gray;
+	-webkit-columns: 25%;
+	text-align: justify;
+}
+
