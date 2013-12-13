@@ -2,10 +2,13 @@ body {
   background: #FFF; }
 
 #logo {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
   background: white;
   background-image: url("../_img/logo.png");
-  position: absolute;
-  top: 35%;
-  left: 43%; }
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: center; 
+}
+
+
