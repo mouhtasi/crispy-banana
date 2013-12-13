@@ -21,6 +21,44 @@ body {
 	font-size: 3vw;
 }
 
+.form {
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 15px;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-webkit-transition: all .2s linear;
+}
+
+.col {
+	-webkit-flex: 1;
+}
+
+.col-a {
+	-webkit-flex-grow: 1;
+}
+
+.col-b {
+	-webkit-flex-grow: 1;
+}
+
+.form input {
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+}
+
+.form input:hover {
+	opacity: 0.8;
+	color: #ff5500;
+	-webkit-transition: color 0.2s ease-in-out;
+	-webkit-transition: opacity 0.1s ease-in-out;
+}
+
 @media screen and (max-width: 480) and (max-width: 768px) {
 	.article {
 		-webkit-column-count: 2;
