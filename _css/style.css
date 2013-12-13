@@ -45,7 +45,7 @@ body {
 	-webkit-flex-grow: 1;
 }
 
-.form input {
+input {
 	background-color: rgba(0, 0, 0, 0.9);
 	margin-right: auto;
 	margin-left: auto;
@@ -56,11 +56,24 @@ body {
 	box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 0px 0px inset;
 }
 
-.form input:hover {
+input:hover {
 	opacity: 0.8;
 	color: #ff5500;
 	-webkit-transition: color 0.2s ease-in-out;
 	-webkit-transition: opacity 0.1s ease-in-out;
+}
+
+.submit {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.submit input {
+	color: white;
+	font-size: 1.5em;
+	width: 50%;
+	height: 50px;
 }
 
 @media screen and (max-width: 480) and (max-width: 768px) {
