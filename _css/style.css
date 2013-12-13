@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
   background: #FFF; }
 
@@ -17,25 +21,7 @@ body {
 	font-size: 3vw;
 }
 
-.article {
-	-webkit-column-count: 3;
-	-webkit-column-gap: 50px;
-	-webkit-column-rule: 2px solid gray;
-	-webkit-columns: 25%;
-	text-align: justify;
-}
-
-@media screen and (max-width: 480px) {
-	#logo {
-		background-size: 90%;
-	}
-
-	.article {
-		-webkit-column-count: 1;
-	}
-}
-
-@media screen and (max-width: 668px) and (max-width: 768px) {
+@media screen and (max-width: 480) and (max-width: 768px) {
 	.article {
 		-webkit-column-count: 2;
 	}
